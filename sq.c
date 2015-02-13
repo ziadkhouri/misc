@@ -12,7 +12,6 @@ sq (double x)
 	double lo = 0;
 	double h;
 
-
 	while (hi - lo > PERCISION)
 	{
 		h = (hi + lo) / 2.0;
@@ -21,7 +20,6 @@ sq (double x)
 		else
 			lo = h;	
 	}
-
 	return h;
 }
 
